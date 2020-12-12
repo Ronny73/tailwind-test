@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+.back-img {
+  background-image: url('/images/heroPattern.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

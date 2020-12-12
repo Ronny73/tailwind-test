@@ -1,13 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- theme: monokai.pro -->
+  <!-- font: cascadia code / fira code  -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tailwind</title>
 </head>
-<body class="min-h-screen bg-green-400 flex justify-center items-center text-6xl text-green-100">
-  Hello Website
+<body>
+ <!-- Header / Navigation =================================================================================-->
+ <div class="bg-gradient-to-br from-white to-gray-300 box-border">
+   
+   <!--Left circle decoration  -->
+   <div class="absolute top-0 left-0 transform translate-x-4 translate-y-4">
+     <div class="bg-gradient-to-br from-blue-100 to-blue-200 w-48 h-48 lg:w-64 lg:h-64 rounded-full absolute ml-24 opacity-50"></div>
+     <div class="bg-gradient-to-br from-purple-100 to-purple-200 w-48 h-48 lg:w-64 lg:h-64 rounded-full absolute ml-10 mt-10 opacity-50"></div>
+     <div class="bg-gradient-to-br from-red-100 to-red-200 w-48 h-48 lg:w-64 lg:h-64 rounded-full absolute opacity-50"></div>
+   </div>
+   
+   <!-- Right circle decoration -->
+   <div class="hidden lg:block absolute top-0 right-0 mr-48 transform -translate-x-64 translate-y-64">
+    <div class="bg-gradient-to-br from-blue-100 to-blue-200 w-64 h-64 rounded-full absolute ml-24 opacity-50"></div>
+    <div class="bg-gradient-to-br from-purple-100 to-purple-200 w-64 h-64 rounded-full absolute ml-10 mt-10 opacity-50"></div>
+    <div class="bg-gradient-to-br from-red-100 to-red-200 w-64 h-64 rounded-full absolute opacity-50"></div>
+  </div>
   
+  
+  <div class="relative text-gray-600">
+    <div class="container flex justify-between px-6 py-6 mx-auto lg:px-0">
+      <div class="flex items-center space-x-4">
+        <a href="#" class="text-2xl font-bold text-blue-300">Veritas Academy</a>
+      </div>
+      
+      <div class="flex items-center space-x-4">
+        <a href="#" class="hidden hover:text-gray-900 lg:inline-block">About</a>
+        <a href="#" class="hidden hover:text-gray-900 lg:inline-block">What You'll Learn</a>
+        <a href="#" class="hidden hover:text-gray-900 lg:inline-block">Essay Tips</a>
+        <!-- <a href="#" class="hidden hover:text-gray-900 lg:inline-block">FAQ</a> -->
+      </div>
+      
+      <div class="flex items-center space-x-4">
+        <a href="#" class="hover:text-gray-900">Login</a>
+        <a href="#" class="hidden p-3 text-purple-700 transition bg-purple-300 rounded shadow lg:inline-block duration-400 hover:bg-purple-200 hover:text-purple-600 hover:shadow-xl">
+          Get the Course
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Hero =================================================================================-->
+  <div class="relative">
+    
+    <div class="absolute bottom-0 inset-x-0 h-64 bg-purple-700"></div>
+    
+    <div class="container  py-24 mx-auto text-center lg:px-6">
+      <h1 class="mb-8 text-4xl md:text-5xl lg:text-6xl font-extrabold text-transparent bg-gradient-to-r from-blue-400 via-blue-200 to-purple-600 bg-clip-text">
+        Veritas Academy
+      </h1>
+      
+      <p class="text-md lg:text-lg font-bold uppercase text-red-300 mb-8">
+        gmat prep, tutoring
+      </p>
+      <p class="mb-8 text-lg lg:text-3xl text-gray-600 font-bold">
+      Higher GMAT Score, Faster
+      </p>
+      
+      <a href="#" class="inline-block px-12 py-3 mb-16 lg:mb-32 text-lg font-bold tracking-wide text-purple-100 transition rounded shadow-xl duration-400 bg-gradient-to-br from-purple-500 to-purple-700 hover:to-purple-600 hover:shadow-2xl hover:text-white">
+        Get the Course
+      </a>
+      
+      <div class="relative">
+        <img src="/images/hero1.jpg" alt="hero1" class="lg:rounded-lg shadow-2xl">
+        
+        <div class="lg:absolute top-0 right-0 lg:transform translate-x-4 -translate-y-4 bg-yellow-100 text-left py-4 px-8 rounded shadow-lg text-yellow-800 border-t-4 border-yellow-500">
+          <p class=""><strong>We will be on your side until the end.</strong></p>
+          <p>We will go step by step.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Over view =================================================================================-->
+ <div class="relative bg-purple-700 lg:pt-12 pb-24">
+  
+  <div class="absolute bottom-0 inset-x-0 h-64 bg-gray-200"></div>
+  
+   <div class="relative container mx-auto px-6 lg:px-0">
+     <h2 class="text-purple-100 text-4xl lg:text-6xl font-bold mb-10">Why writing is hard, Really Hard? </h2>
+     
+     <div class="lg:flex lg:space-x-16 space-y-8 lg:space-y-0">
+       <!-- Left column -->
+       <div class="lg:w-2/3 bg-white p-4 lg:p-16 rounded shadow-xl text-gray-800 text-lg space-y-8">
+         <p>It sounds simple, right? But here’s the first catch: topics don’t fall from trees. You have to think them up. And think them over. It’s one thing to say, “here’s a topic”….and quite another to say, “Here’s what I have to say about this topic that is interesting, fresh, and authentic.”
+          And that requires a laser focus on your central point, your core argument.
+          To express ideas in a way they haven’t been expressed before starts with focusing on what the hell those ideas are about in the first place.
+          Everyone has their own method for drawing focus to a topic. A walk in the woods (or park), jotting down notes, the first draft of random thoughts before a piece starts to gel.
+          Sometimes the effort leads nowhere, stuck in a slimy, unformed state of mental goo. Then it’s time to move on.
+          Like I said, focus.
+          <strong>Writing is hard</strong>.</p>
+         <p>The pros, the charlatans hawking writing e-courses, they all say you’ve got to write practice, a lot. And post frequently, here on Medium or a platform of choice. Practice your craft, they all advise.
+          The first week or so, that’s easy. The second week, not so much. By the third week the only thing that’s easy is to say, “not today”.
+          Once you’ve fallen out of the practice of practice, it’s much, much harder to write.
+          (Please note I didn’t even list ‘discipline” as a reason writing is hard so as not to scare you. “Practice” is scary enough.)
+          In a million years of practice, I’m pretty sure I’ll ever join the ranks of, say, Margaret Atwood. But I do know that I’ll be a better writer.
+          <strong>Writing is hard</strong>.</p>
+         <p>If you’re serious about writing you have to be all in. Or don’t bother. It’s too hard to be half-assed about it.
+          That’s where diligence comes in.
+          Diligence is not quite like focus, not quite like practice. Even worse, diligence is like commitment.
+          It’s about being dedicated. You’ve got to do it every day. You’ve got to be committed to getting better, to wrestling this tiger to the ground. It’s hard, the diligence thing.
+          Diligence wraps up focus and practice in a tidy bundle because diligence is about wanting it. And being willing to work, to be diligent about attaining it. To not give up. About persistence.
+          If you want it, you need to be diligent.
+          <strong>Writing is hard</strong>.</p>
+       </div>
+       
+       <!-- Right Column -->
+       <div class="flex-grow text-lg space-y-4 italic">
+         <div class="p-10 rounded-lg bg-purple-800 text-purple-200 shadow">Writing requires focus</div>
+         <div class="p-10 rounded-lg bg-purple-800 text-purple-200 shadow">Writing requires practice</div>
+         <div class="p-10 rounded-lg bg-purple-800 text-purple-200 shadow">Writing requires diligence</div>
+         <div class="p-10 rounded-lg bg-purple-800 text-purple-200 shadow">Writing requires courage</div>
+         <div class="p-10 rounded-lg bg-purple-800 text-purple-200 shadow">Writing requires humility</div>
+       </div>
+     </div>
+   </div>
+ </div>
+ 
+ 
+ <!-- About Me =================================================================================-->
+  <div class="bg-gray-200 lg:text-center">
+    <div class="container mx-auto px-6 lg:px-0">
+      
+      <h2 class="mb-3 text-3xl lg:text-6xl font-bold text-blue-500">About Me</h2>
+      <p class="mb-12 lg:text-xl leading-loose">
+        Throughout my academic and professional careers, I have always enjoyed mentoring younger individuals through activities like tutoring and advising. During my undergraduate career at Indiana University, I served as an orientation leader and student adviser for classmates in my major. While pursuing my MBA at Indiana Business School, I participated in the Tutorial Program, where I worked across a range of subjects with many students. I enjoy finding new ways to help others through my own knowledge and experience, and always try to use methods that resonate most with the specific person I am working with.
+      </p>
+      
+      <!-- Video or images -->
+      <div class="lg:flex lg:space-x-8 text-left space-y-8 lg:space-y-0">
+        <div class="lg:w-1/2 bg-white border-2 border-gray-700 rounded shadow-xl">
+          <p class="text-lg p-4 text-gray-700">All about MBA and GMAT</p>
+          
+          <iframe class="w-full rounded-b" height="315" src="https://www.youtube.com/embed/EVXvVNCOm0Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="lg:w-1/2 bg-white border-2 border-gray-700 rounded shadow-xl">
+          <p class="text-lg p-4 text-gray-700">How to overcome GMAT?</p>
+          <iframe class="w-full rounded-b" height="315" src="https://www.youtube.com/embed/2mo9_KNsB_Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+ 
+ <!-- What you'll learn =================================================================================-->
+ <div class=" py-32 bg-gray-200 text-gray-700">
+   <div class="container mx-auto px-6 lg:px-0">
+     
+    <div class="relative">
+      <h2 class="mb-24 text-4xl lg:text-6xl text-center font-bold text-gray-700">
+        <span class="text-gray-400">Five Reasons</span> why <span class="text-blue-300">Veritas</span> is the ultimate, all-inclusive prep tool
+      </h2>
+      
+      <div class="absolute top-0 left-0 h-2 w-1/3 bg-gradient-to-r from-blue-400 to-purple-400 transform -translate-y-4 rounded"></div>
+      <div class="absolute bottom-0 right-0 h-2 w-1/3 bg-gradient-to-l from-purple-400 to-blue-400 transform translate-y-5 rounded"></div>
+    </div>
+    
+    <div class="lg:grid grid-cols-6 gap-10 space-y-8 lg:space-y-0">
+      <div class="border border-gray-700 rounded col-span-2 shadow-lg">
+        <div class="p-4 flex justify-between relative border-b border-gray-700 bg-red-200 text-red-500">
+          <h3 class="font-bold text-lg">Reach a higher score faster</h3>
+          <div class="flex space-x-2">
+            <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+            <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+          </div>
+        </div>
+        
+        <p class="p-4">We will teach you how to identify the fastest way to solve each problem and, as a result, spend less time preparing for the GMAT exam - and a lot less time solving it in real-time.</p>
+      </div>
+      <div class="border border-gray-700 rounded col-span-2 shadow-lg">
+        <div class="p-4 flex justify-between relative border-b border-gray-700 bg-yellow-200 text-yellow-500">
+          <h3 class="font-bold text-lg bg-yellow-200 text-yellow-600">A plan that fits study around your life</h3>
+          <div class="flex space-x-2">
+            <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+            <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+          </div>
+        </div>
+        
+        <p class="p-4">We’ve put everything in one place, with no additional books or study guides needed. Our seven-days-a-week professional support and our engaging interactive video teaching approach allows you to be flexible in your approach to studying.</p>
+      </div>
+      <div class="border border-gray-700 rounded col-span-2 shadow-lg">
+        <div class="p-4 flex justify-between relative border-b border-gray-700 bg-blue-200 text-blue-500">
+          <h3 class="font-bold text-lg bg-blue-200 text-blue-600">Our 70-point improvement money-back guarantee</h3>
+          <div class="flex space-x-2">
+            <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+            <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+          </div>
+        </div>
+        
+        <p class="p-4">We guarantee a score improvement of at least 70 points on our premium and genius plans - the only score guarantee that uses an official test score to measure your progress. As you would expect from The Veritas, there’s a simple process to establish your benchmark and a straightforward way to claim your refund.</p>
+      </div>
+      <div class="border border-gray-700 rounded col-span-3 shadow-lg">
+        <div class="p-4 flex justify-between relative border-b border-gray-700 bg-green-200 text-green-500">
+          <h3 class="font-bold text-lg bg-green-200 text-green-600">Genuine adaptive learning</h3>
+          <div class="flex space-x-2">
+            <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+            <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+          </div>
+        </div>
+        
+        <p class="p-4">Our online system studies the way you think and optimises your strengths. The Veritas GMAT Test prep course tailors both practice questions and solution strategies to your own strengths and weaknesses and will focus your efforts where they make the most impact on your score.</p>
+      </div>
+      <div class="border border-gray-700 rounded col-span-3 shadow-lg">
+        
+        <div class="p-4 flex justify-between relative border-b border-gray-700 bg-purple-200 text-purple-500">
+          <h3 class="font-bold text-lg bg-purple-200 text-purple-600">A FREE digital subscription to The Veritas</h3>
+          <div class="flex space-x-2">
+            <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+            <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+          </div>
+        </div>
+      
+        <p class="p-4">Recommended to boost GMAT candidates’ reading comprehension, The Veritas newspaper offers outstanding analysis and comment on global affairs. Each plan includes a free three-month digital subscription. No other GMAT tutor product can match that.</p>
+      </div>
+    </div>
+   </div>
+ </div>
+ 
+ <!-- What we'll build =================================================================================-->
+ <div class="py-12 lg:py-24 bg-gray-300 text-gray-500">
+   <div class="container mx-auto px-6 lg:px-0">
+    
+    <div class="mb-8">
+      <h2 class="mb-2 text-4xl md:text-5xl text-center text-gray-800 font-bold">
+        Here's what your Veritas course will cover
+      </h2>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="flex bg-white rounded shadow">
+        <div class="w-1/2 flex items-center justify-center text-xl bg-pink-500 text-pink-100 rounded-l">Quantitative 1</div>
+        <div class="p-4 w-1/2">Problem Solving and Data Sufficiency Methods and Strategies, Algebra</div>
+      </div>
+      
+      <div class="flex bg-white rounded shadow">
+        <div class="w-1/2 flex items-center justify-center text-xl bg-pink-500 text-pink-100 rounded-l">Quantitative 2</div>
+        <div class="p-4 w-1/2">Parithmetic, Number Properties, Geometry</div>
+      </div>
+      
+      <div class="flex bg-white rounded shadow">
+        <div class="w-1/2 flex items-center justify-center text-xl bg-pink-500 text-pink-100 rounded-l">Quantitative 3</div>
+        <div class="w-1/2 p-4">Proportions, Math Formulas, Statistics</div>
+      </div>
+      
+      <div class="flex bg-white rounded shadow">
+        <div class="w-1/2 flex items-center justify-center text-xl bg-green-500 text-green-100 rounded-l">Verbal 1</div>
+        <div class="w-1/2 p-4">Critical Reasoning, Introduction to the Analytical Writing Assessment</div>
+      </div>
+      
+      <div class="flex bg-white rounded shadow">
+        <div class="w-1/2 flex items-center justify-center text-xl bg-green-500 text-green-100 rounded-l">Verbal 2</div>
+        <div class="w-1/2 p-4">Reading Comprehension, Introduction to Integrated Reasoning</div>
+      </div>
+      
+      <div class="flex bg-white rounded shadow">
+        <div class="w-1/2 flex items-center justify-center text-xl bg-green-500 text-green-100 rounded-l">Verbal 3</div>
+        <div class="w-1/2 p-4">Sentence Correction</div>
+      </div>
+    </div>
+   </div>
+ </div>
+ 
+ <!-- pricing =================================================================================-->
+ <div class="bg-purple-600 py-20 px-4 md:px-0">
+   
+  <h2 class="text-center text-4xl md:text-5xl font-bold text-purple-100">MBA Essay is important: A Few Tips</h2>
+  
+  <div class="container mx-auto mt-8 text-gray-600">
+    <p class="text-2xl bg-white p-2 rounded-lg shadow-lg">
+      <span class="text-4xl">"</span>What do you want to accomplish career-wise that either requires an MBA or will be accelerated by an MBA?<span class="text-4xl">"</span>
+    </p>
+  </div>
+  
+  <div class="container mx-auto mt-8 text-gray-600">
+    <p class="text-2xl bg-white p-2 rounded-lg shadow-lg">
+      <span class="text-4xl">"</span>Why is this the exact point in your career where an MBA would be most impactful?<span class="text-4xl">"</span>
+    </p>
+  </div>
+  
+  <div class="container mx-auto mt-8 text-gray-600">
+    <p class="text-2xl bg-white p-2 rounded-lg shadow-lg">
+      <span class="text-4xl">"</span>What about this particular school is especially important for your career plans?<span class="text-4xl">"</span>
+    </p>
+  </div>
+  
+  <div class="container mx-auto mt-8 text-gray-600">
+    <p class="text-2xl bg-white p-2 rounded-lg shadow-lg">
+      <span class="text-4xl">"</span>How will you contribute?<span class="text-4xl">"</span>
+    </p>
+  </div>
+ </div>
+ 
+ 
+ <!-- FaQ / Footer / etc =================================================================================-->
+ <div class="relative bg-gray-200  pt-20 px-4 md:p-32 md:pb-0 lg:p-40 lg:pb-0 text-center">
+  <div class="relative z-10">
+    <h2 class="text-4xl lg:text-5xl text-gray-700 font-bold uppercase tracking-wide">
+      We the Veritas raise scores.
+    </h2>
+    <h2 class="text-4xl lg:text-5xl text-gray-700 font-bold uppercase tracking-wide mt-6">
+      Yours is next.
+    </h2>
+    <p class="text-3xl text-purple-400 font-bold mt-10">
+      For over a decade, we've used our learning expertise to help GAMT students get their goal score.
+    </p>
+    <div class="mt-16 flex flex-col sm:flex-row sm:justify-center sm:items-center">
+      <span class="text-gray-700 text-2xl mb-6 sm:mb-0 sm:mr-10">Get A Free Consultation</span>
+      <button class="bg-blue-500 text-blue-100 px-8 py-3 rounded-lg shadow-lg font-bold hover:bg-blue-400 hover:text-blue-700 transition duration-300">
+        Schedule A Call
+      </button>
+    </div>
+    <div class="w-full h-px bg-gray-500 mt-12"></div>
+    <div class=" p-4 sm:p-11 text-gray-500">
+      <p>Copyright &copy; 2020 Veritas Academy</p>
+    </div>
+  </div>
+  
+   <!--Left circle decoration  -->
+   <div class="absolute top-0 left-0 transform translate-x-4 translate-y-4">
+    <div class="bg-gradient-to-br from-blue-100 to-blue-200 w-48 h-48 lg:w-64 lg:h-64 rounded-full absolute ml-24 opacity-50"></div>
+    <div class="bg-gradient-to-br from-purple-100 to-purple-200 w-48 h-48 lg:w-64 lg:h-64 rounded-full absolute ml-10 mt-10 opacity-50"></div>
+    <div class="bg-gradient-to-br from-red-100 to-red-200 w-48 h-48 lg:w-64 lg:h-64 rounded-full absolute opacity-50"></div>
+  </div>
+  
+  <!-- Right circle decoration -->
+  <div class="hidden lg:block absolute top-0 right-0 mr-48 transform -translate-x-64 translate-y-64">
+   <div class="bg-gradient-to-br from-blue-100 to-blue-200 w-64 h-64 rounded-full absolute ml-24 opacity-50"></div>
+   <div class="bg-gradient-to-br from-purple-100 to-purple-200 w-64 h-64 rounded-full absolute ml-10 mt-10 opacity-50"></div>
+   <div class="bg-gradient-to-br from-red-100 to-red-200 w-64 h-64 rounded-full absolute opacity-50"></div>
+  </div>
+ </div>
+ 
   
   <script src="index.js"></script>
 </body>
